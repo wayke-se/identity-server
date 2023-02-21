@@ -6,7 +6,7 @@ on:
 name: Publish NuGet Packages
 
 env:
-  source: https://nuget.pkg.github.com/ourstudio-se/index.json
+  source: https://nuget.pkg.github.com/wayke-se/index.json
 
 jobs:
   publish:
