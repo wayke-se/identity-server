@@ -2,15 +2,15 @@
 
   <PropertyGroup>
     <PackageId>Ourstudio.IdentityServer.EntityFramework.Storage</PackageId>
-    <TargetFrameworks>net6.0</TargetFrameworks>
+    <TargetFrameworks>net8.0</TargetFrameworks>
     
     <Description>EntityFramework persistence layer for IdentityServer</Description>
     <Authors>Brock Allen;Dominick Baier;Scott Brady</Authors>
     <PackageTags>OAuth2;OAuth 2.0;OpenID Connect;Security;Identity;IdentityServer;EntityFramework</PackageTags>
     <PackageIcon>icon.jpg</PackageIcon>
-    <PackageProjectUrl>https://github.com/wayke-se/identity-server</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/ourstudio-se/identity-server</PackageProjectUrl>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
-    <PackageReleaseNotes>https://github.com/wayke-se/identity-server/releases</PackageReleaseNotes>
+    <PackageReleaseNotes>https://github.com/ourstudio-se/identity-server/releases</PackageReleaseNotes>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
@@ -24,16 +24,16 @@
   </ItemGroup>
   
   <ItemGroup>
-    <PackageReference Include="Ourstudio.IdentityServer.Storage">
+    <PackageReference Include="Ourstudio.IdentityServer.Storage" Version="*-*">
         <NoWarn>NU1602</NoWarn>
         <NoWarn>NU1604</NoWarn>
     </PackageReference>
     
-    <PackageReference Include="AutoMapper" Version="11.0.1" />
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
     
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.1" />
 
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="6.0.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="8.0.1" />
     <PackageReference Include="Microsoft.SourceLink.GitHub" PrivateAssets="All" />
   </ItemGroup>
 
